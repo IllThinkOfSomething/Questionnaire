@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1057158270579",
+    "project_id": "questionnaire-86b6f",
+    "storage_bucket": "questionnaire-86b6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057158270579:android:dd5d34ef694927218ee406",
+        "android_client_info": {
+          "package_name": "com.example.and_questionaire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057158270579-gi4hv3aphqbk4lvj2e46fal4isqjjos2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.and_questionaire",
+            "certificate_hash": "b39f04a8e6ca3f8c0e830b749ec74d31f8f0af37"
+          }
+        },
+        {
+          "client_id": "1057158270579-eq7svr3fee85nlkmdhpor63gn7aik5io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAyjY3VxrbcuMvn2JYagW4iYqq8gBRs18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057158270579-eq7svr3fee85nlkmdhpor63gn7aik5io.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

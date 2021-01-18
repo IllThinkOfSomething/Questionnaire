@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.PackActivity"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_backround">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/pack_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/tool_bar_color_preset"
+        app:titleTextColor="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/pack_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15sp"
+        android:text="Packs"
+        android:textSize="25sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <GridView
+        android:id="@+id/pack_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:horizontalSpacing="12sp"
+        android:verticalSpacing="12sp"
+        android:paddingLeft="12sp"
+        android:columnWidth="100sp"
+        android:numColumns="auto_fit">
+
+    </GridView>
+
+</LinearLayout>
